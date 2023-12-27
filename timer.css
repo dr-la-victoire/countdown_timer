@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* GENERAL STYLES */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* CONTAINER STYLES */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7rem;
+    width: 100%;
+}
+
+.timer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10rem;
+}
+
+/* TEXT STYLES */
+h1 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.intro-text {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
